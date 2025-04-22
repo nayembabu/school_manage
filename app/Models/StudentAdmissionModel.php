@@ -12,8 +12,4 @@ class StudentAdmissionModel extends Model
 
 
 
- 
-
-
-
 }

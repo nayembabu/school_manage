@@ -1,10 +1,11 @@
 <section class="bg-img pt-200 pb-120" data-overlay="7" style="background-image: url(../images/front-end-img/banners/banner-1.jpg); background-position: top center;">
     <div class="container mt-5">
+        
 
         <div class="container mt-5">
             <div class="card shadow-lg rounded-4 border-0">
                 <div class="card-header bg-primary text-white text-center rounded-top-4">
-                    <h4 class="mb-0" text-center >🧑‍🎓 Student Admission Information</h4>
+                    <h4 class="mb-0" text-center >🧑Student Admission Information</h4>
                 </div>
                 <div class="card-body p-4">
                     <div class="row mb-3">

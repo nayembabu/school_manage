@@ -1,0 +1,84 @@
+WARNING - 2025-04-21 15:47:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-21 15:47:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-21 15:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-21 15:47:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-21 15:47:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-21 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-21 15:47:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-21 15:47:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-21 15:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-21 15:48:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-21 15:48:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-21 15:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-21 16:21:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "result_view.php"
+[Method: GET, Route: resultview]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('result_view.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('result_view', [], true)
+ 3 APPPATH\Controllers\ResultViewController.php(12): view('result_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResultViewController->result_view()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-21 16:23:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "result_view.php"
+[Method: GET, Route: resultview]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('result_view.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('result_view', [], true)
+ 3 APPPATH\Controllers\ResultViewController.php(15): view('result_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ResultViewController->result_view()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResultViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

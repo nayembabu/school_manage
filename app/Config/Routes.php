@@ -12,6 +12,8 @@ $routes->post('/class/insert', 'ClassController::insert_class_infos');
 $routes->get('/studentadmission', 'StudentAdmissionController::index');
 $routes->post('/studentadmissionform', 'StudentAdmissionController::student_admission');
 $routes->get('/studentadmissionview', 'StudentAdmissionController::student_admission_single_view');
+$routes->get('/resultview', 'ResultViewController::result_view');
+
 
 
 
