@@ -57,7 +57,7 @@
     <div class="school-header">
       <img src="school-logo.png" alt="School Logo" class="school-logo">
       <h2><strong>Sunshine Model School</strong></h2>
-      <h5>📘 Academic Report Card</h5>
+      <h5>📘 Student's Academic Report Card </h5>
     </div>
 
     <div class="row">
