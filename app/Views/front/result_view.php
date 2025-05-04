@@ -17,9 +17,6 @@
                         <div class="form-group mb-4">
                             <label for="class" style="color: #34495e; font-weight: bold;">Select Class</label>
                             <select class="form-control form-control-lg" id="class" name="class" style="border-radius: 10px; border: 2px solid #e74c3c;">
-
-                                <option value="1">Class KG</option>
-                                <option value="1">Class Nursery</option>
                                 <option value="1">Class 1</option>
                                 <option value="2">Class 2</option>
                                 <option value="3">Class 3</option>
@@ -37,7 +34,7 @@
                         </div>
                         
                         <div class="form-group mb-4">
-                            <label for="roll" style="color: #34495e; font-weight: bold;">Year </label>
+                            <label for="roll" style="color: #34495e; font-weight: bold;"> Year </label>
                             <input type="text" class="form-control form-control-lg" id="roll" name="roll" placeholder="Enter Year" style="border-radius: 10px; border: 2px solid #3498db;">
                         </div>
                         

@@ -8,7 +8,7 @@ use App\Models\StudentAdmissionModel;
 // use App\Models\ClassModel;
 use App\Models\ResultViewModel;
 
-class ResultViewController extends BaseController
+class SearchResult extends BaseController
 {
     public function result_view()
     {

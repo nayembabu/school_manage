@@ -44,11 +44,10 @@ class StudentAdmissionController extends BaseController
                 $session->setFlashdata('success', 'Student Admission Successfully');
                 return redirect()->to(base_url('studentadmission'));
             } else {
-
                 return redirect()->to(base_url('studentadmission'));    
             }
     }       public function student_admission_single_view() {
-                        $student_admission_id = $this->request->getGet('student_admission_id');
+                        $student_admission_id = $this->request->getGet('student_admission_id'); // student_admission_id এটা হলো প্যারামিটার 
                         // $student_admission_id = $this->request->getGet('student_info_sets_at_iddddds');
                         
                         $data['student_info'] = $this->StudentAdmissionModel->find($student_admission_id);
