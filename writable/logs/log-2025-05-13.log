@@ -1,0 +1,135 @@
+ERROR - 2025-05-13 04:28:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NOT NULL DEFAULT '2025-05-13 04:28:55',
+	CONSTR' at line 6 in C:\laragon\www\school\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\school\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\laragon\www\school\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\laragon\www\school\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\laragon\www\school\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\laragon\www\school\app\Database\Migrations\2025-05-11-045900_Notice.php(38): CodeIgniter\Database\Forge->createTable('notice')
+#5 C:\laragon\www\school\system\Database\MigrationRunner.php(866): App\Database\Migrations\Notice->up()
+#6 C:\laragon\www\school\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\school\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\school\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\school\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\school\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\school\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\school\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\school\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\laragon\www\school\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\laragon\www\school\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-13 04:29:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NOT NULL DEFAULT '2025-05-13 04:29:17',
+	CONSTR' at line 6 in C:\laragon\www\school\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\school\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\laragon\www\school\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\laragon\www\school\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\laragon\www\school\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\laragon\www\school\app\Database\Migrations\2025-05-11-045900_Notice.php(38): CodeIgniter\Database\Forge->createTable('notice')
+#5 C:\laragon\www\school\system\Database\MigrationRunner.php(866): App\Database\Migrations\Notice->up()
+#6 C:\laragon\www\school\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\school\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\school\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\school\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\school\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\school\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\school\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-13 04:30:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NOT NULL DEFAULT '2025-05-13 04:30:35',
+	CONSTR' at line 6 in C:\laragon\www\school\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\laragon\www\school\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `n...', 0)
+#1 C:\laragon\www\school\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `n...')
+#2 C:\laragon\www\school\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `n...')
+#3 C:\laragon\www\school\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `n...')
+#4 C:\laragon\www\school\app\Database\Migrations\2025-05-11-045900_Notice.php(38): CodeIgniter\Database\Forge->createTable('notice')
+#5 C:\laragon\www\school\system\Database\MigrationRunner.php(866): App\Database\Migrations\Notice->up()
+#6 C:\laragon\www\school\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\school\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\school\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\school\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\school\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\school\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\school\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-05-13 04:49:30 --> Error: Call to a member function front_panel() on null
+[Method: GET, Route: notice]
+in APPPATH\Controllers\Notice.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Notice->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:51:10 --> Error: Call to a member function front_panel() on null
+[Method: GET, Route: notice]
+in APPPATH\Controllers\Notice.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Notice->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notice))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:57:26 --> ParseError: syntax error, unexpected token ";", expecting "function" or "const"
+[Method: GET, Route: notices/show]
+in APPPATH\Controllers\Notice.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\school\\app\\Controllers\\Notice.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Notice')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Notice')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Notice', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:57:37 --> ParseError: syntax error, unexpected token ";", expecting "function" or "const"
+[Method: GET, Route: notice]
+in APPPATH\Controllers\Notice.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\school\\app\\Controllers\\Notice.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Notice')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Notice')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Notice', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:57:46 --> ParseError: syntax error, unexpected token ";", expecting "function" or "const"
+[Method: GET, Route: notices/1]
+in APPPATH\Controllers\Notice.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\school\\app\\Controllers\\Notice.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Notice')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Notice')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Notice', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:58:15 --> ParseError: syntax error, unexpected token ";", expecting "function" or "const"
+[Method: GET, Route: notices/1]
+in APPPATH\Controllers\Notice.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\school\\app\\Controllers\\Notice.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Notice')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Notice')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Notice', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 04:58:30 --> ParseError: syntax error, unexpected token ";", expecting "function" or "const"
+[Method: GET, Route: notices/1]
+in APPPATH\Controllers\Notice.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\school\\app\\Controllers\\Notice.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Notice')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Notice')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Notice', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

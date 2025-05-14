@@ -9,5 +9,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/m', 'Home::nayem');
 $routes->get('/class', 'ClassController::index');
 $routes->post('/class/insert', 'ClassController::insert_class_infos');
+$routes->get('/notice', 'Notice::index');
+$routes->get('/notices/(:num)', 'Notice::show/$1');
 
 
