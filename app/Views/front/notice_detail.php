@@ -18,7 +18,7 @@
 <section class="py-50">
     <div class="container">
         <div class="row">
-            <img src="<?php echo $notice['featured_image'] ?>" alt="" height="300px" width="100%" class="mb-4">
+            <img src="<?php echo $notice['featured_image'] ?>" alt="" height="400px" class="mb-4" style="object-fit:contain">
             <div class="col-12">
                 <div class="mb-4 p-4 bg-white shadow-sm rounded notice-box">
                     <p class="text-muted small mb-0">📅 Published on: <?php echo date("d-m-Y",strtotime($notice['created_at'])); ?></p>

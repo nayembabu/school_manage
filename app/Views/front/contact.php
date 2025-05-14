@@ -25,29 +25,33 @@
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page</p>
                         <?php if (session()->getFlashdata('success')): ?>
-    <p style="color: green;"><?= session()->getFlashdata('success') ?></p>
-<?php endif; ?>
-<?php if (session()->getFlashdata('error')): ?>
-    <p style="color: red;"><?= session()->getFlashdata('error') ?></p>
-<?php endif; ?>
+                        <p style="color: green;">
+                            <?= session()->getFlashdata('success') ?>
+                        </p>
+                        <?php endif; ?>
+                        <?php if (session()->getFlashdata('error')): ?>
+                        <p style="color: red;">
+                            <?= session()->getFlashdata('error') ?>
+                        </p>
+                        <?php endif; ?>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name" value="<?= old('first_name') ?>"
-                                    name="first_name" required>
+                                <input type="text" class="form-control" placeholder="First Name"
+                                    value="<?= old('first_name') ?>" name="first_name" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name" value="<?= old('last_name') ?>"
-                                    name="last_name" required>
+                                <input type="text" class="form-control" placeholder="Last Name"
+                                    value="<?= old('last_name') ?>" name="last_name" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your Email" value="<?= old('email') ?>"
-                                    name="email" required>
+                                <input type="email" class="form-control" placeholder="Your Email"
+                                    value="<?= old('email') ?>" name="email" required>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -58,14 +62,14 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Subject" value="<?= old('subject') ?>"
-                                    name="subject" required>
+                                <input type="text" class="form-control" placeholder="Subject"
+                                    value="<?= old('subject') ?>" name="subject" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Department" value="<?= old('department') ?>"
-                                    name="department" required>
+                                <input type="text" class="form-control" placeholder="Department"
+                                    value="<?= old('department') ?>" name="department" required>
                             </div>
                         </div>
                         <div class="col-lg-12">
@@ -115,7 +119,7 @@
         <div class="row">
             <div class="col-12">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596552044!2d-74.25986763304465!3d40.69714941412697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1537364999769"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.0431323654293!2d92.00295537503455!3d21.42754957396266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc7b989a9c767%3A0xc4c655df5ade21cf!2z4KaW4Ka-4Kas4Ka-4KawIOCmrOCmvuCmoeCmvOCmvw!5e0!3m2!1sbn!2sbd!4v1747224543584!5m2!1sbn!2sbd"
                     class="map" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
