@@ -13,7 +13,6 @@
   
 	
 	<!-- Vendor JS -->
-	<script src="include/admin_style/js/vendors.min.js"></script>
 	<script src="include/admin_style/js/pages/chat-popup.js"></script>
     <script src="include/assets/icons/feather-icons/feather.min.js"></script>
 

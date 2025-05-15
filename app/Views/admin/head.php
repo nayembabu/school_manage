@@ -17,6 +17,9 @@
 	<!-- Style-->  
 	<link rel="stylesheet" href="include/admin_style/css/style.css">
 	<link rel="stylesheet" href="include/admin_style/css/skin_color.css">
+	
+	<!-- Template Main Script -->
+	<script src="include/admin_style/js/vendors.min.js"></script>
      
   </head>
 
