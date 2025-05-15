@@ -11,7 +11,7 @@ class Home extends BaseController
     }
 
     
-    public function nayem() {
+    public function dash() {
         // $this->template->front_panel('home');
         $this->template->admin_panel('dash');
     }

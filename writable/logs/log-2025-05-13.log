@@ -1,0 +1,85 @@
+DEBUG - 2025-05-13 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-13 05:28:45 --> mysqli_sql_exception: Unknown column 'create_user_idss' in 'field list' in D:\forphp\school_manage-master\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\forphp\school_manage-master\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `st...', 0)
+#1 D:\forphp\school_manage-master\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 D:\forphp\school_manage-master\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 D:\forphp\school_manage-master\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 D:\forphp\school_manage-master\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\forphp\school_manage-master\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\forphp\school_manage-master\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\forphp\school_manage-master\app\Controllers\StudentAddFromAdminPanelController.php(62): CodeIgniter\Model->insert(Array)
+#8 D:\forphp\school_manage-master\system\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+#9 D:\forphp\school_manage-master\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+#10 D:\forphp\school_manage-master\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\forphp\school_manage-master\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\forphp\school_manage-master\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\forphp\school_manage-master\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-05-13 05:28:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_user_idss' in 'field list'
+[Method: POST, Route: student_add_from_admin_panel_form]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (:student_info_bn_names:, :student_info_names_en:, :birth_date_dob:, :birth_registration_nos:, :student_info_addresss:, :student_info_father_name_en:, :student_info_bn_father_name:, :student_info_mother_en:, :student_info_bn_mother:, :student_info_gradian_phone1:, :student_info_gradian_phone2nd:, :gardian_name:, :gardian_relationss:, :class_iddddd:, :online_admission_auto_idddiiid:, :section_uniq_iddsss:, :student_picture_pathssss:, :create_timess:, :update_timess:, :create_datesss:, :create_user_idss:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\StudentAddFromAdminPanelController.php(62): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 05:28:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_user_idss' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (\'আপা\', \'apa\', \'1960-12-14\', \'01\', \'ভারত\', \'bongoboltu\', \'বঙ্গবল্টু \', \'sss\', \'RRR\', \'1111\', \'1111\', \'ddd\', \'dd\', \'\', \'\', \'d\', NULL, 1747114124, NULL, \'2025-05-13\', 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (\'আপা\', \'apa\', \'1960-12-14\', \'01\', \'ভারত\', \'bongoboltu\', \'বঙ্গবল্টু \', \'sss\', \'RRR\', \'1111\', \'1111\', \'ddd\', \'dd\', \'\', \'\', \'d\', NULL, 1747114124, NULL, \'2025-05-13\', 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (:student_info_bn_names:, :student_info_names_en:, :birth_date_dob:, :birth_registration_nos:, :student_info_addresss:, :student_info_father_name_en:, :student_info_bn_father_name:, :student_info_mother_en:, :student_info_bn_mother:, :student_info_gradian_phone1:, :student_info_gradian_phone2nd:, :gardian_name:, :gardian_relationss:, :class_iddddd:, :online_admission_auto_idddiiid:, :section_uniq_iddsss:, :student_picture_pathssss:, :create_timess:, :update_timess:, :create_datesss:, :create_user_idss:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\StudentAddFromAdminPanelController.php(62): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 05:28:45 --> [Caused by] mysqli_sql_exception: Unknown column 'create_user_idss' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (\'আপা\', \'apa\', \'1960-12-14\', \'01\', \'ভারত\', \'bongoboltu\', \'বঙ্গবল্টু \', \'sss\', \'RRR\', \'1111\', \'1111\', \'ddd\', \'dd\', \'\', \'\', \'d\', NULL, 1747114124, NULL, \'2025-05-13\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (\'আপা\', \'apa\', \'1960-12-14\', \'01\', \'ভারত\', \'bongoboltu\', \'বঙ্গবল্টু \', \'sss\', \'RRR\', \'1111\', \'1111\', \'ddd\', \'dd\', \'\', \'\', \'d\', NULL, 1747114124, NULL, \'2025-05-13\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (\'আপা\', \'apa\', \'1960-12-14\', \'01\', \'ভারত\', \'bongoboltu\', \'বঙ্গবল্টু \', \'sss\', \'RRR\', \'1111\', \'1111\', \'ddd\', \'dd\', \'\', \'\', \'d\', NULL, 1747114124, NULL, \'2025-05-13\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student_info` (`student_info_bn_names`, `student_info_names_en`, `birth_date_dob`, `birth_registration_nos`, `student_info_addresss`, `student_info_father_name_en`, `student_info_bn_father_name`, `student_info_mother_en`, `student_info_bn_mother`, `student_info_gradian_phone1`, `student_info_gradian_phone2nd`, `gardian_name`, `gardian_relationss`, `class_iddddd`, `online_admission_auto_idddiiid`, `section_uniq_iddsss`, `student_picture_pathssss`, `create_timess`, `update_timess`, `create_datesss`, `create_user_idss`) VALUES (:student_info_bn_names:, :student_info_names_en:, :birth_date_dob:, :birth_registration_nos:, :student_info_addresss:, :student_info_father_name_en:, :student_info_bn_father_name:, :student_info_mother_en:, :student_info_bn_mother:, :student_info_gradian_phone1:, :student_info_gradian_phone2nd:, :gardian_name:, :gardian_relationss:, :class_iddddd:, :online_admission_auto_idddiiid:, :section_uniq_iddsss:, :student_picture_pathssss:, :create_timess:, :update_timess:, :create_datesss:, :create_user_idss:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentAddFromAdminPanelController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-13 05:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-13 05:41:38 --> Error: Call to a member function getExtension() on null
+[Method: POST, Route: student_add_from_admin_panel_form]
+in APPPATH\Controllers\StudentAddFromAdminPanelController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-13 05:42:50 --> CodeIgniter\HTTP\Exceptions\HTTPException: The original file is not a valid file.
+[Method: POST, Route: student_add_from_admin_panel_form]
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\StudentAddFromAdminPanelController.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('include/img/all_students/', '1747114969.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-13 05:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

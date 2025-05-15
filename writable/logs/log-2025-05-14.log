@@ -1,0 +1,46 @@
+CRITICAL - 2025-05-14 04:28:14 --> Error: Call to a member function getExtension() on null
+[Method: GET, Route: student_search]
+in APPPATH\Controllers\StudentAddFromAdminPanelController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-14 04:29:11 --> Error: Call to a member function getExtension() on null
+[Method: GET, Route: student_search]
+in APPPATH\Controllers\StudentAddFromAdminPanelController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StudentAddFromAdminPanelController->student_add_from_admin_panel_form()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentAddFromAdminPanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-14 04:51:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-14 04:51:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-14 04:53:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$StudentAdmissionModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-14 04:53:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\StudentAdmissionController::$ClassModel is deprecated in APPPATH\Controllers\StudentAdmissionController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StudentAdmissionController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
