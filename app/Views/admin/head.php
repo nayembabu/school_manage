@@ -371,6 +371,21 @@
 					<li><a href="charts_echarts_pie_doughnut.html"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Pie & Doughnut Chart</a></li>
 				  </ul>
 				</li> 
+				<!-- For Notice Menu -->
+				<li class="treeview">
+				  <a href="#">
+					<i class="icon-Notifications"><span class="path1"></span><span class="path2"></span></i>
+					<span>Notice</span>
+					<span class="pull-right-container">
+					  <i class="fa fa-angle-right pull-right"></i>
+					</span>
+				  </a>
+				  <ul class="treeview-menu">
+					<li><a href="/admin/notice"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>All Notice</a></li>
+					<li><a href="/admin/notice/create-notice"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Add New Notice</a></li>
+				  </ul>
+				</li>
+				<!-- For Notice Menu End -->
 				<li class="header">COLLECTIONS</li>
 				<li class="treeview">
 				  <a href="#">
