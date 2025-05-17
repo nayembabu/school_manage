@@ -16,6 +16,8 @@ class StudentAdmissionController extends BaseController
             $this->StudentAdmissionModel = new StudentAdmissionModel();
             $this->ClassModel = new ClassModel();
         }
+
+
         public function index()
         {
             $dataa['all_class'] = $this->ClassModel->findAll();

@@ -16,7 +16,8 @@ $routes->get('/searchresult', 'SearchResult::result_view');
 $routes->get('/seestudentresult', 'SeeStudentResultController::SeeStudentResult');
 $routes->get('/student_add_from_admin_panel', 'StudentAddFromAdminPanelController::student_add_from_admin_panel');
 $routes->post('/student_add_from_admin_panel_form', 'StudentAddFromAdminPanelController::student_add_from_admin_panel_form');
-$routes->get('/student_search', 'StudentSearchController::student_search');
+$routes->get('/student_search', 'StudentSearchController::class_dropdown_search');
+$routes->post('/student_search', 'StudentSearchController::student_info_in_modal');
 
 
 

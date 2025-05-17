@@ -7,13 +7,20 @@ use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\StudentAddFromAdminPanelModel;
 use App\Models\StudentAdmissionModel;
 use App\Models\ClassModel;
-use App\Models\StudentSearchModel;
-use App\Libraries\Template;
 
 class StudentSearchController extends BaseController
 {
-    public function student_search()
-    {
-        $this->template->admin_panel('student_search');
+    public function __construct(){
+        parent::__construct();
+        $this->StudentAdmissionModel = new StudentAdmissionModel();
+        $this->ClassModel = new ClassModel();
     }
+
+    public function class_dropdown_search()
+    {
+        $dataa['class_dropdown_search'] = $this->ClassModel->findAll();
+        $this->template->admin_panel('student_search', $dataa);
+    }
+    
+
 }

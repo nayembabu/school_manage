@@ -854,3 +854,4 @@
 	<!-- Page Content overlay -->
 	
 	
+	<script src="include/assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
