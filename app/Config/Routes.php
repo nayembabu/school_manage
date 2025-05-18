@@ -18,6 +18,9 @@ $routes->get('/student_add_from_admin_panel', 'StudentAddFromAdminPanelControlle
 $routes->post('/student_add_from_admin_panel_form', 'StudentAddFromAdminPanelController::student_add_from_admin_panel_form');
 $routes->get('/student_search', 'StudentSearchController::class_dropdown_search');
 $routes->post('/student_search', 'StudentSearchController::student_info_in_modal');
+$routes->get('/teacher_add', 'TeacherController::index');
+$routes->post('/teacher_save', 'TeacherController::save');
+
 
 
 
