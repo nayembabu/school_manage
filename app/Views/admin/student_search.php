@@ -10,15 +10,15 @@
                         <div class="row g-3">
                             <div class="col-md-5">
                                 <label class="form-label">Select Class</label>
-                                <select class="form-select">
-                                    <option selected disabled>Select Class</option>
+                                <select class="form-select select_class">
+                                    <option value="" selected disabled>Select Class</option>
 									<?php foreach ($class_dropdown_search as $classs) : ?>
 										<option value="<?= $classs['class_name_auto_id'] ?>"><?= $classs['class_name_s'] ?></option>
 									<?php endforeach; ?>
                                 </select>
                             </div>
                             <div class="col-md-2 d-grid align-items-end">
-                                <button type="button" class="btn btn-primary mt-4">Search</button>
+                                <button type="button" class="btn btn-primary mt-4 stu_search_btn ">Search</button>
                             </div>
                         </div>
                     </form>
@@ -35,7 +35,7 @@
                                     <th>View Full Details</th>
                                 </tr>
                             </thead>
-							<tbody>
+							<tbody class="alltablehtmldata">
 								<tr>
 									<td>Tanvir</td>
 									<td>Class 1</td>
@@ -108,3 +108,47 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+
+        $(document).on('click','.stu_search_btn', function() {
+            if($('.select_class option:selected').val() == ""){
+                alert('Please select a class');
+                return false;
+            } else {
+                $.ajax({
+                    url: 'student_search',
+                    type: 'POST',
+                    data: {
+                        class_name_auto_id: $('.select_class option:selected').val()
+                    },
+                    success: function(res) {
+                        let alltablehtmldata = '';
+                        let response = JSON.parse(res);
+
+                        for (let stu = 0; stu < response.student_info.length; stu++) { 
+                            alltablehtmldata += `
+                            
+								<tr>
+									<td>${response.student_info[stu].student_info_bn_names}</td>
+									<td>Class 1</td>
+									<td>Father Name</td>
+									<td>Mother Name</td>
+									<td>Address</td>
+									<td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#studentModal">View</button></td>
+								</tr>
+                            
+                            
+                            `
+                            
+                        }
+                        $('.alltablehtmldata').html(alltablehtmldata);
+                    }
+                
+                });
+                
+            }
+         
+        });
+    </script>

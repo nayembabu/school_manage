@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 class TeacherModel extends Model
 {
-    protected $table            = 'teacher_personal_info';
-    protected $primaryKey       = 'teacher_personal_info_id';
+    protected $table            = 'teacher_personal_info_main';
+    protected $primaryKey       = 'teacher_personal_info_main_id';
     protected $returnType       = 'array';
     protected $allowedFields    = [
         'full_name',
