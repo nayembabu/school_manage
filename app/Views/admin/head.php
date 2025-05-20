@@ -17,7 +17,7 @@
 	<!-- Style-->  
 	<link rel="stylesheet" href="include/admin_style/css/style.css">
 	<link rel="stylesheet" href="include/admin_style/css/skin_color.css">
-     
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
 <body class="hold-transition light-skin sidebar-mini theme-primary fixed sidebar-collapse">

@@ -18,10 +18,12 @@ class AdminNoticeController extends BaseController
         $data['allNotice'] = $this->noticeModel->findAll();
         $this->template->admin_panel('notice',$data);
     }
-    public function edit($id)
+    public function edit()
     {
+        $id = $this->request->getGet('id');
         $data['notice'] = $this->noticeModel->find($id);
-        $this->template->admin_panel('edit_notice',$data);
+        return $this->response->setJSON(['status' => 200, 'notice_C' => $data['notice']]);
+        
     }
     public function update($id)
     {
@@ -32,8 +34,9 @@ class AdminNoticeController extends BaseController
         $this->noticeModel->update($id, $data);
         return redirect()->to('/admin/notice');
     }
-    public function delete($id){
+    public function delete(){
     // Get the notice to find the image path
+        $id = $this->request->getGet('id');
         $notice = $this->noticeModel->find($id);
 
         if ($notice && !empty($notice['featured_image'])) {
@@ -43,8 +46,12 @@ class AdminNoticeController extends BaseController
             }
         }
 
-        $this->noticeModel->delete($id);
-        return redirect()->to('/admin/notice');
+        $deleted=$this->noticeModel->delete($id);
+        if ($deleted) {
+            return $this->response->setJSON(['status' => '200', 'message' => 'Notice deleted successfully']);
+        } else {
+            return $this->response->setJSON(['status' => '400', 'message' => 'Failed to delete notice']);
+        }
     }
     public function create()
     {
@@ -68,4 +75,12 @@ class AdminNoticeController extends BaseController
         $this->noticeModel->insert($data);
         return redirect()->to('/admin/notice');
     }
+    public function view_notice()
+    {
+        $id = $this->request->getPost('id');
+        $data['notice_C'] = $this->noticeModel->find($id);
+        return json_encode($data);
+    }
+
+    
 }
