@@ -132,10 +132,14 @@
                             
 								<tr>
 									<td>${response.student_info[stu].student_info_bn_names}</td>
-									<td>Class 1</td>
-									<td>Father Name</td>
-									<td>Mother Name</td>
-									<td>Address</td>
+									<td>
+                                        Class ${response.student_info[stu].class_iddddd}
+                                    </td>
+									<td>
+                                        ${response.student_info[stu].student_info_father_name_en}
+                                    </td>
+									<td>${response.student_info[stu].student_info_mother_en}</td>
+									<td> ${response.student_info[stu].student_info_addresss} </td>
 									<td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#studentModal">View</button></td>
 								</tr>
                             
