@@ -21,3 +21,4 @@ $routes->get('/admin/notice/create-notice', 'AdminNoticeController::create');
 $routes->post('/admin/notice/create-notice/submit', 'AdminNoticeController::submit');
 $routes->post('/admin/notice/create-notice/submit', 'AdminNoticeController::submit');
 $routes->post('/view-notice', 'AdminNoticeController::view_notice');
+$routes->get('/admin/section', 'AdminClassSectionController::index');
