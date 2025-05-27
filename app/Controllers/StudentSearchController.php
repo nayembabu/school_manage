@@ -32,6 +32,12 @@ class StudentSearchController extends BaseController
         $data['student_info']   = $this->StudentSearchModel->where('class_iddddd', $class_name_auto_id )->findAll();
         return json_encode($data);
     }
+    public function single_student_info()
+    {
+        $student_id = $this->request->getPost('student_id');
+        $data['single_student_info'] = $this->StudentSearchModel->where('student_info_sets_at_iddddds', $student_id)->first();
+        return json_encode($data);
+    }
     
 
 }

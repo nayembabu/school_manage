@@ -20,6 +20,7 @@ $routes->get('/student_search', 'StudentSearchController::class_dropdown_search'
 $routes->post('/student_search', 'StudentSearchController::student_info_in_modal');
 $routes->get('/teacher_add', 'TeacherController::index');
 $routes->post('/teacher_save', 'TeacherController::save');
+$routes->post('/single_student_info', 'StudentSearchController::single_student_info');
 
 
 
