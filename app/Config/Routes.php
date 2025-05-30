@@ -22,3 +22,7 @@ $routes->post('/admin/notice/create-notice/submit', 'AdminNoticeController::subm
 $routes->post('/admin/notice/create-notice/submit', 'AdminNoticeController::submit');
 $routes->post('/view-notice', 'AdminNoticeController::view_notice');
 $routes->get('/admin/section', 'AdminClassSectionController::index');
+$routes->post('/admin/section/delete-section', 'AdminClassSectionController::deleteSection');
+$routes->get('/admin/section/viewClassName', 'AdminClassSectionController::viewClassName');
+$routes->post('/admin/section/add-section', 'AdminClassSectionController::addSection');
+$routes->post('admin/section/update-section', 'AdminClassSectionController::updateSection');
