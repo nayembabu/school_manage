@@ -72,4 +72,10 @@ class TeacherController extends BaseController
 
         return redirect()->to('/teacher_add')->with('success', 'Teacher added successfully!');
     }
+
+    public function teacher_official_info_add()
+    {
+        // অফিসিয়াল তথ্য ফর্ম দেখানোর জন্য
+        return $this->template->admin_panel('/teacher/teacher_official_info_add');
+    }
 }

@@ -21,6 +21,7 @@ $routes->post('/student_search', 'StudentSearchController::student_info_in_modal
 $routes->get('/teacher_add', 'TeacherController::index');
 $routes->post('/teacher_save', 'TeacherController::save');
 $routes->post('/single_student_info', 'StudentSearchController::single_student_info');
+$routes->get('/teacher_official_info_add', 'TeacherController::teacher_official_info_add');
 
 
 
